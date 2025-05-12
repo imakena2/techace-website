@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Tech Ace Solutions</title>
+  <meta name="description" content="Tech Ace Solutions - Our latest news and insights" />
+  <meta name="author" content="Tech Ace Solutions" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <div class="bg-gradient-primary rounded me-2" style="width: 32px; height: 32px;"></div>
+        <span class="fw-bold">Tech Ace Solutions</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-gradient-primary">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="bg-gradient-primary text-white py-5">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold mb-3">Our Blog</h1>
+      <p class="lead">Stories, insights, and updates from Tech Ace Solutions and our community.</p>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Latest Tech Insights</h2>
+        <p class="text-muted">Explore our thoughts on emerging technologies, best practices, and how tech is transforming Africa.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Blog entries (updated with logos) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" class="card-img-top p-3" style="height: 120px; object-fit: contain;" alt="Azure Logo">
+            <div class="card-body">
+              <h5 class="card-title">5 Ways Cloud Computing Empowers African SMEs</h5>
+              <p class="card-text text-muted">Cloud services offer scalability, affordability, and remote collaboration—key ingredients for growth.</p>
+              <a href="https://azure.microsoft.com/en-us/blog/" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAZlBMVEX///8En9kAnNgAmdcAkdT5/P70/P6IyumNzOrE4vMAl9aLyekAotvr9vuw2e/0+v1Qq944rN6FxOfS6faazutbtOHb7vg2p9xGsOC74PJqtuKe0+0ootrk8/p5veR1uONoveQAjNNN3GV3AAAH3UlEQVR4nO2b6ZakKBBGS9CsFLdM973t93/JQQUFxCVbTk/PdNwfdeogGfAhSxDg1xcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFd5uGFu2mYeug/TNi+V65Vt3Zi12dRt6RlvoXMePUYI48qkzQqNNvvIpM2LBVsU1Jq0WYw2ETLaQJd4WhO2Y9CmPdt8GjR5DS7G5HhlYr4NmrwGiDkBxJgAxJwAYkwAYk7488Rcdgm2GX+LGKfqf/SuXPiOmOZHHV9ye3Ov/pEqerRiHJcWXpnzmsKC+seFK6VpxThxizGqk3OTeW1hbMVyHbVi3IKaLMJfrPq24AzTIkgmtbhWTEImv7c/t9lPGYksWycmzwhNwtmFBrpEOLnmliW9Gp0YpyHTvuB1Ois8XpNJInc0nRh3SkKtqVcTtvPe5VyMh2cxwZnJgInxzsXMZVsgRgOIOQbEGOE/LCbZxOFuiwnCUE25K+bhhucrT9S3bass4XfFVEXbFqFU7btikppWMz4JsEUNXcMRqjuDYtwCUVrp1zfFBDWm1cTNsZrOn9wMeb29JybyJreApGLJN8XMPgnypTbfkJDZXmpOTBBPiTiWEu+JSeeM5HjYJHjOJgUV/zwxrHAMYkAMiAExf4OYnOjE+J+KERezIzH4nhhyHAdiHoAcDHHfc6LUDtqARmjPYsQ0J2UegFTvWYwte1w6Mcm82BfS2eA1D8AJbZqN1FLBTjw6bLbkj+jFBD4ZDyXlKroFTVQjVRUay/Flj1QnJkrtMYwjB6WcKWRjhyfRNOpp2mRQHfZvmviUE/VBwO5t27669XBp4ttVEkOfJiotq42bBU9aeKzWaKCJJ37miNNptlZRpzbCXng2CLbN5egSv7bl7IRnnU5T62BToxv8HYHzG4AYE7AthW3S5r8mJsHjVI/fJm2W4/KKkKkY+Qd8E2yRn6dBpU+IfmKESWzS5FXcshgMX0ByhqL8/deAAAAAAAAA/g4ck7eeTRJFQeJWVdIFkSMlz2yyB11SzdkjnSQnijpqz80Ve8Lvc/o4Cbam7+JESfzGNiHEJugtfntQzgxKVZLeJzz7sL1g5UTuULAMfpZuNhLBVBx9buP3d2JWTlS9CZlvA43bJ1s4GvXx9IGDvEnLaxsL2Xulsk7U+LZg76fysUdQFWtxiJCyMignGdaSp+jkUxAzJ0liEh+L2bES9XLct2JPjrTlmS09pnqG3NDoc6qCSLbPxOSyFlWMkyKk2JPEJEj++ZSjdI2ooVpU48digmHJP56Zq2Kcp6pFFpNg9fHUIIWRHaj7ErRMlTsRk9g8d1tQWgtLY6ZpkWgOKWJysQcK/5KXgThH15PVdDtVDh2KiZ7sB23dJHleNfFLnK2S1zKyF3vCYUBUYuFx2656iDqN/ALNUnb76hu6cjRDibwDMUE2V8f3liRh7XQGwV4cUnvp8MKrmNAWiwub/rW+yNsfuCUZs4WKpX0fTXgk5j0fD+m7RVVwe6/lQCJ4LuMhQsvjZo6VRg3/Bc7ufloXLlrUM4kzMfrbuzGvWak9KOIvBgm3ZZM3r8PNO2dBzEfM3mSy281Q6W4PMnL+sNC3conYY/G1uuzdkPheYJv3Muztjb7tBJBiPoKzMFFOUfitYqI/9Ip403liqsMsopuXmys2/PydTqadmpepHBOqJxddERZut3ZOI3ObvRi56dir2e3qF2FD5qBNtmKiXnAYMClSoeJsyGD1oJEXR1hxcnLXYxODJpyt4H73XFfjznSluIYjPKzjYz5GVy6frTSsGQY5+fFk1bgphvyCGDrMLdEDEuZULmbnbJWJQcpBwGM+fVcd0o/FsCYZdqd4nZivwHtZgouFly0D72aeXgzvZoOcHHhm3gzrKu8PxsxE7tWvxRVZryR4LEG/yny5bAJ4yck5d13vieFT/P7Q2xEzXtb16mXx5tckG5Z959ZLx8TIt1O/3NbIbJbzdabe62e7YihBw7zKxUms3nz90/cz/i4HcRniK/d+Ja4ReXwF3Onlh2KWqX2ZQIKavyv9q2b9CbXCohrxxQmrn3V9StUyMZawXIi3I47FzNd4qBjeph4fRq1wCX29q8Fv7wqPA74BQrf3Z3y9os5JX+WB4zyC3PWao82Z8AodNoGse82Er0HI8lwqwhkDTv1ay3IpLnbzIKCFxXweUUMJv0C17CewlXlNk8aZbx/tZ6ImnIJhD1rNkFUdr/ekeZ+hi6k/PMMm7Uv0c+1z7uoL+bXnxVmLz/z2Dwi8NSSEMSHU3zreNgclKbI+TlMqG207SFcr9mhlxcXwe/WF8Phw3ZfueA0fkQ+iczJxLIZ6+Wisx1oTyYFwy609QUxQE/XxrGXfCflITb0JDZ2JUSoidxA+PevF0FenUYPQvg/yoZq+lev3mRisfG7y5WZK68g+V9dvYlG4vfZZ7hW6JpMCc2QzASBxzMjhTJRtgqt5+paCY8pVzSilxSHJhPox0S2StG7ROAjGuDKyhKa2pkQivhk2Xsas2M9STZs6lZf5c6bxb6vOU4lHZzH2GLV1avpqUB6mcZ1R6EQVCmMxnVnDQE5F57F+GLPWNOtOkNhJwrQf7dW912janT6OB27CsJSJIE+SJNddmFR5dGPWJD/uHMzeno8yPzZ6bQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/m/8Aztlfgn8KnMZAAAAAElFTkSuQmCC" class="card-img-top p-3" style="height: 120px; object-fit: contain;" alt="Cisco Logo">
+            <div class="card-body">
+              <h5 class="card-title">Understanding Cybersecurity in 2025</h5>
+              <p class="card-text text-muted">Cyber threats are evolving. Here’s how to safeguard your business from ransomware and phishing attacks.</p>
+              <a href="https://blogs.cisco.com/security" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" class="card-img-top p-3" style="height: 120px; object-fit: contain;" alt="LinkedIn Logo">
+            <div class="card-body">
+              <h5 class="card-title">Why Coding is the New Literacy</h5>
+              <p class="card-text text-muted">Teaching coding to marginalized youth opens doors to innovation, jobs, and digital inclusion.</p>
+              <a href="https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="data:image/jpeg;base64,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" class="card-img-top p-3" style="height: 120px; object-fit: contain;" alt="Tableau Logo">
+            <div class="card-body">
+              <h5 class="card-title">The Role of Data Analytics in Decision Making</h5>
+              <p class="card-text text-muted">Discover how small businesses can use data to drive customer engagement and efficiency.</p>
+              <a href="https://www.ibm.com/blogs/industries/data-analytics-decision-making/" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://cdn.worldvectorlogo.com/logos/zapier-1.svg" class="card-img-top p-3" style="height: 120px; object-fit: contain;" alt="Zapier Logo">
+            <div class="card-body">
+              <h5 class="card-title">Remote Work Tools for Growing Startups</h5>
+              <p class="card-text text-muted">From Slack to Zoom, we cover the must-have tools for productivity in distributed teams.</p>
+              <a href="https://www.atlassian.com/blog/remote-work/tools" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://s3.fr-par.scw.cloud/files.powerlearnprojectafrica.org/lms/production/images/rLsCQBqeWBlHGPsW?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20250512%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20250512T185238Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=c377378291ce8b3d801b9b41cd974355a83937c1413f9103127a43dda62540df" class="card-img-top p-3" style="height: 120px; object-fit: cover;" alt="AI Safari">
+            <div class="card-body">
+              <h5 class="card-title">How AI is Reshaping Development in Africa</h5>
+              <p class="card-text text-muted">Artificial Intelligence is solving real-world problems in health, agriculture, and education across Africa.</p>
+              <a href="https://powerlearnprojectafrica.org/programs/ai-safari" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+    <footer class="py-5" style="background-color: #f8f9fa;">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Company Info -->
+          <div class="col-lg-3 col-md-6">
+            <div class="d-flex align-items-center mb-3">
+              <div class="bg-gradient-primary rounded me-2" style="width: 32px; height: 32px;"></div>
+              <span class="fw-bold fs-5">Tech Ace Solutions</span>
+            </div>
+            <p class="text-muted mb-4">
+              Empowering youth through technology education and resources in marginalized communities.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-muted" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="text-muted" aria-label="Twitter">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="#" class="text-muted" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="text-muted" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="fw-bold mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+              <li class="mb-2"><a href="services.html" class="text-muted text-decoration-none">Services</a></li>
+              <li class="mb-2"><a href="portfolio.html" class="text-muted text-decoration-none">Portfolio</a></li>
+              <li class="mb-2"><a href="blog.html" class="text-muted text-decoration-none">Blog</a></li>
+              <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="fw-bold mb-3">Services</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="services.html" class="text-muted text-decoration-none">Digital Literacy</a></li>
+              <li class="mb-2"><a href="services.html" class="text-muted text-decoration-none">Coding Workshops</a></li>
+              <li class="mb-2"><a href="services.html" class="text-muted text-decoration-none">Tech Mentorship</a></li>
+              <li class="mb-2"><a href="services.html" class="text-muted text-decoration-none">Community Tech Hubs</a></li>
+              <li><a href="services.html" class="text-muted text-decoration-none">Career Guidance</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="fw-bold mb-3">Contact</h5>
+            <address class="text-muted">
+              <p class="mb-2">123 Tech Avenue</p>
+              <p class="mb-2">Nairobi, Kenya</p>
+              <p class="mb-2">info@techacesolutions.com</p>
+              <p>+254 700 000000</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="border-top border-secondary mt-4 pt-4 text-center text-muted">
+          <p>&copy; <script>document.write(new Date().getFullYear())</script> Tech Ace Solutions Limited. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
