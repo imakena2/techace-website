@@ -6,7 +6,7 @@ A multi-page responsive blog website built for the **Final Project and Deploymen
 
 - Build a fully functional web application.
 - Apply HTML, CSS, and JavaScript skills.
-- Deploy the final site using **GitHub Pages** and/or **Vercel**.
+- Deploy the final site using **GitHub Pages**
 
 ## 📘 Project Type
 
@@ -61,7 +61,7 @@ Mentored by the PLP technical and community teams.
 
 For feedback or collaboration:  
 📧 Email: info@techacesolutions.com  
-🌐 Website: [Tech Ace Solutions](https://imakena2.github.io/tech-ace-solutions)  
+🌐 Website: [Tech Ace Solutions](https://imakena2.github.io/techace-website/) 
 📍 Nairobi, Kenya
 
 “Smart Solutions for Businesses, Skills for the Next Generation.” – *Tech Ace Solutions*
