@@ -31,7 +31,7 @@ Includes multiple pages with internal navigation:
 
 ## 🔗 Deployment Links
 
-- **GitHub Pages**: [https://imakena2.github.io/tech-ace-solutions](https://imakena2.github.io/tech-ace-solutions)
+- **GitHub Pages**: [Tech Ace Solutions](https://imakena2.github.io/techace-website/)
 
 ## 🛠️ Technologies Used
 
